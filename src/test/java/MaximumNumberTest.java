@@ -58,4 +58,31 @@ public class MaximumNumberTest {
         Double result = max.maximum(x,y,z);
         Assert.assertEquals(z,result);
     }
+    @Test
+    public void testMaximumNumberAtFirstPositionString() {
+        String x = "zambare";
+        String y = "rohit";
+        String z = "chetan";
+        MaximumNumber<String> max = new MaximumNumber<>();
+        String result = max.maximum(x,y,z);
+        Assert.assertEquals(x,result);
+    }
+    @Test
+    public void testMaximumNumberAtSecondPositionString() {
+        String x = "chetan";
+        String y = "rohit";
+        String z = "aman";
+        MaximumNumber<String> max = new MaximumNumber<>();
+        String result = max.maximum(x,y,z);
+        Assert.assertEquals(y,result);
+    }
+    @Test
+    public void testMaximumNumberAtThirdPositionString() {
+        String x = "chetan";
+        String y = "rohit";
+        String z = "zambare";
+        MaximumNumber<String> max = new MaximumNumber<>();
+        String result = max.maximum(x,y,z);
+        Assert.assertEquals(z,result);
+    }
 }
