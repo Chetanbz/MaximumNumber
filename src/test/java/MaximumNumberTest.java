@@ -10,7 +10,7 @@ public class MaximumNumberTest {
         Integer y = 12;
         Integer z = 10;
         MaximumNumber<Integer> max = new MaximumNumber<>();
-        Integer result = max.maximum(z,y,x);
+        Integer result = max.maximum(x,y,z);
         Assert.assertEquals(x,result);
     }
     @Test
@@ -29,6 +29,33 @@ public class MaximumNumberTest {
         Integer z = 15;
         MaximumNumber<Integer> max = new MaximumNumber<>();
         Integer result = max.maximum(x,y,z);
+        Assert.assertEquals(z,result);
+    }
+    @Test
+    public void testMaximumNumberAtFirstPositionFloat() {
+        Double x = 15.2;
+        Double y = 12.5;
+        Double z = 10.9;
+        MaximumNumber<Double> max = new MaximumNumber<>();
+        Double result = max.maximum(x,y,z);
+        Assert.assertEquals(x,result);
+    }
+    @Test
+    public void testMaximumNumberAtSecondPositionFloat() {
+        Double x = 1.2;
+        Double y = 12.5;
+        Double z = 10.9;
+        MaximumNumber<Double> max = new MaximumNumber<>();
+        Double result = max.maximum(x,y,z);
+        Assert.assertEquals(y,result);
+    }
+    @Test
+    public void testMaximumNumberAtThirdPositionFloat() {
+        Double x = 15.2;
+        Double y = 12.5;
+        Double z = 20.9;
+        MaximumNumber<Double> max = new MaximumNumber<>();
+        Double result = max.maximum(x,y,z);
         Assert.assertEquals(z,result);
     }
 }
