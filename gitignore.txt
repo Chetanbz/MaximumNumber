@@ -1,0 +1,14 @@
+.gradle/
+.idea/
+build/
+gradle/
+build.gradle
+gradlew
+gradlew.bat
+gradlew.bat/
+gradlew/
+settings.gradle/
+src/main/java/classwork/
+
+zamba@DESKTOP-2M5MM2B MINGW64 /d/eclipse-java-2020-09-R-win32-x86_64/Workspace Eclipse/Generics/src/main/java/classwork/
+

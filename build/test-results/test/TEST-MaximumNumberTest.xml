@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MaximumNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-07T16:02:06" hostname="DESKTOP-2M5MM2B" time="0.003">
+  <properties/>
+  <testcase name="testMaximumNumberAtThirdPosition" classname="MaximumNumberTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
