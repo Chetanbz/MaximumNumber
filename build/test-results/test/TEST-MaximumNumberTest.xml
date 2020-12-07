@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MaximumNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-07T17:04:40" hostname="DESKTOP-2M5MM2B" time="0.002">
+<testsuite name="MaximumNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-07T17:07:49" hostname="DESKTOP-2M5MM2B" time="0.008">
   <properties/>
-  <testcase name="testMaximumNumberVariableArgumentForSix" classname="MaximumNumberTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="testMaximumNumberVariableArgumentForSixPrintmax" classname="MaximumNumberTest" time="0.008"/>
+  <system-out><![CDATA[150
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

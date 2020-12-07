@@ -107,4 +107,17 @@ public class MaximumNumberTest {
         Integer result = max.maximum(x,y,z,x1,y1,z1);
         Assert.assertEquals(x1,result);
     }
+    @Test
+    public void testMaximumNumberVariableArgumentForSixPrintmax() {
+        Integer x =15;
+        Integer y = 12;
+        Integer z = 10;
+        Integer x1 =150;
+        Integer y1 = 12;
+        Integer z1 = 10;
+        MaximumNumber<Integer> max = new MaximumNumber<>();
+        Integer result = max.maximum(x,y,z,x1,y1,z1);
+        max.print(result);
+        Assert.assertEquals(x1,result);
+    }
 }

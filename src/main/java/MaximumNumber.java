@@ -10,4 +10,7 @@ public class MaximumNumber <E extends Comparable<E>>{
         }
         return max;
     }
+    public void print(E max){
+        System.out.println(max);
+    }
 }
